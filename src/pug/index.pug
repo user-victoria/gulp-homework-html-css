@@ -1,0 +1,68 @@
+extends common/layout
+
+block content
+    main.container
+        section.works
+            h2 How Dreamshare works?
+            .steps
+                .step
+                    div
+                    a(href='#') Step 1
+                    h3 Sed leo enim, condimentum
+                    p Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit  amet facilisis.
+                .step
+                    div
+                    a(href='#') Step 2
+                    h3 Morbi velit risus
+                    p Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+                .step
+                    div
+                    a(href='#') Step 3
+                    h3 Sed leo enim, condimentum
+                    p Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+        section.partners
+            h2 Meet a partner for your best holiday
+            .people
+                .people-info
+                    img(src='images/person1.png', alt='')
+                    h3 Bradley Hunter
+                    p Based in Chicago. I love playing tennis and loud music.
+                .people-info.order
+                    img(src='images/person2.png', alt='')
+                    h3 Marie Bennett
+                    p Currently living in Colorado. Lover of art, languages and travelling.
+                .people-info
+                    img(src='images/person3.png', alt='')
+                    h3 Diana Wells
+                    p Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+                .people-info.order
+                    img(src='images/person4.png', alt='')
+                    h3 Christopher Pierce
+                    p Star Wars fanatic. I have a persistent enthusiasm to create new things.
+            a.btn-partners(href='#') See other partners
+        section.ideas
+            h2 Discover holiday activity ideas
+            .ideas-images
+                .flex-row
+                    .ideas-images__item.ideas-images__item_small
+                        a.sports_link(href='#') Sports and Activis
+                    .ideas-images__item.ideas-images__item_small
+                        a.health_link(href='#') Wellness and Health
+                    .ideas-images__item.ideas-images__item_small
+                        a.extreme_link(href='#') Extreme Sports and Expeditions
+                .flex-row
+                    .ideas-images__item.ideas-images__item_small
+                        a.games_link(href='#') Games
+                    .ideas-images__item.ideas-images__item_big
+                        a.culture_link(href='#') Culture and Education
+                .flex-row
+                    .ideas-images__item.ideas-images__item_big
+                        a.relax_link(href='#') Enjomet and Relaxation
+                    .ideas-images__item.ideas-images__item_small
+                        a.travel_link(href='#') Travelling
+        section.search
+            h2 Create your holiday activity
+            p Hi! What are your holiday interests?
+            form
+                input(type='text', placeholder='Enter your insterests')
+                button.btn-search Search partners
